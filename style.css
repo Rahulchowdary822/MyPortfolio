@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Abril+Fatface&family=Agbalumo&family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Protest+Revolution&family=Protest+Riot&display=swap');
 
+body{
+    background-image: url('https://img.freepik.com/premium-photo/white-paper-texture-background-cardboard-surface-from-paper-box-packing-designs-decoration-nature-background-concept_707519-16138.jpg?w=900');
+    background-size: cover;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
 
 html {
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
 }
 
 .backButton{
@@ -192,6 +197,7 @@ html {
 .certificates-section{
     background-image: url('https://img.freepik.com/premium-photo/white-paper-texture-background-cardboard-surface-from-paper-box-packing-designs-decoration-nature-background-concept_707519-16138.jpg?w=900');
     background-size: cover;
+    margin-top: 50px;
 }
 
 .descriptionHighlight{
@@ -200,12 +206,12 @@ html {
 
 .AboutMeDescription{
     font-family: 'Inconsolata';
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .AboutMeHeading{
     font-family: 'Akshar';
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 500;
 }
 
